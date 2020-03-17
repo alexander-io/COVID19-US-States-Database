@@ -66,3 +66,5 @@ let main = async () => {
   await fetch_and_insert_data() // get data, store in db
   await sleep(((1000 * 60)*60)*24) // sleep 24 hrs
 }
+
+main()
