@@ -1,4 +1,3 @@
-const puppeteer = require('puppeteer');
 let fetch = require('node-fetch')
 const MongoClient = require('mongodb').MongoClient;
 
